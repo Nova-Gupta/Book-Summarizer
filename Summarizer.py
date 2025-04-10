@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 
 # Set your API key
-genai.configure(api_key="AIzaSyABXX315O6uMI79hMmYfA2pT3PlQotA644")
+genai.configure(api_key="api key")
 
 # Gemini summary function
 def summarize_with_gemini(text):
