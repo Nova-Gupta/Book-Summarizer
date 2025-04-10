@@ -22,6 +22,15 @@ def extract_text_from_pdf(pdf_file):
 
 # Streamlit UI
 st.set_page_config(page_title="Book Summarizer Chatbot")
+st.markdown(
+    """
+    <h2 style="position: absolute; top: 10px; left: 10px; color: gray; font-size: 16px;">
+        👋 Nova - 12326332<br>
+        Ankureet - 12327118
+    </h2>
+    """,
+    unsafe_allow_html=True
+)
 st.title("📚 Book Summarizer Chatbot")
 
 uploaded_file = st.file_uploader("📄 Upload a PDF", type=["pdf"])
