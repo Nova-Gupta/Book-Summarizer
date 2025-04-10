@@ -22,15 +22,24 @@ def extract_text_from_pdf(pdf_file):
 
 # Streamlit UI
 st.set_page_config(page_title="Book Summarizer Chatbot")
-st.markdown(
-    """
-    <h2 style="position: absolute; top: 10px; left: 10px; color: gray; font-size: 16px;">
+st.markdown("""
+    <style>
+        .top-left-text {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            color: #cccccc;
+            font-size: 16px;
+            font-weight: bold;
+            z-index: 9999;
+        }
+    </style>
+    <div class="top-left-text">
         👋 Nova - 12326332<br>
-        Ankureet - 12327118
-    </h2>
-    """,
-    unsafe_allow_html=True
-)
+        🧠 Meet ID: 2207184
+    </div>
+""", unsafe_allow_html=True)
+
 st.title("📚 Book Summarizer Chatbot")
 
 uploaded_file = st.file_uploader("📄 Upload a PDF", type=["pdf"])
