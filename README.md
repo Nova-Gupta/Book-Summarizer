@@ -1,29 +1,42 @@
-# 📚 Book Summarizer Chatbot
+# 📚 Book Summarizer using Gemini AI
 
-This is a simple Streamlit-based web application that allows users to upload a PDF book and get a summarized version using Google's Gemini model.
+This is a simple yet powerful web app that summarizes books, chapters, or any large text content using Google's **Gemini 1.5 Pro API**.
 
-## ✨ Features
+It’s built using **Python** and **Streamlit**, and provides a clean, user-friendly interface to generate summaries in seconds.
 
-- Upload any PDF file
-- Extract text from all pages of the PDF
-- Generate a concise summary using **Gemini 2.0 Flash**
-- User-friendly UI built with Streamlit
+## 🚀 Features
 
-## 🚀 Getting Started
+- 📥 Paste any long-form content (book chapters, articles, etc.)
+- 🤖 Summarized using Gemini’s powerful LLM (via API)
+- 🧼 Clean UI with instant results
+- ☁️ One-click deployment using Streamlit Cloud
 
-### 📦 Prerequisites
+---
 
-Make sure you have the following installed:
+## 📸 Screenshot
 
-- Python 3.8+
-- [Streamlit](https://streamlit.io/)
-- [PyPDF2](https://pypi.org/project/PyPDF2/)
-- [Google Generative AI SDK](https://github.com/google/generative-ai-python)
+![App Screenshot](https://your-screenshot-url-if-any)
 
-### 🔧 Installation
+---
 
-1. Clone the repository:
+## 💻 Live Demo
 
+[👉 Try it on Streamlit Cloud](https://your-app-url.streamlit.app)
+
+---
+
+## 🔧 Tech Stack
+
+- Python
+- Streamlit
+- Google Gemini Pro API
+- Requests library
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/book-summarizer-chatbot.git
-cd book-summarizer-chatbot
+git clone https://github.com/your-username/book-summarizer-gemini.git
+cd book-summarizer-gemini
